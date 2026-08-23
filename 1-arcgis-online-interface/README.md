@@ -1,7 +1,13 @@
-#tutorial02: planejar rotas para entregadores de mercadorias
+# Abordagem 1: Interface no-code (ArcGIS Online)
 
-Para planejar as rotas dos seus cinco entregadores, você precisará de três camadas: uma para os pontos de partida (o Centro de Distribuição do Mercado Livre), uma para os destinos de entrega (os 23 endereços de clientes) e outro para os pontos de chegada final (as residências de cada entregador). Essas duas últimas camadas serão criadas a partir de arquivos CSV (valores separados por vírgulas), em que cada linha representa um registro (endereço do cliente ou residência) e cada campo separa os atributos das feições.
+O tutorial completo, passo a passo, está publicado no LinkedIn:
 
-Os endereços contidos nos arquivos CSV podem ser geocodificados em um mapa no ArcGIS Online. A geocodificação é uma operação de SIG que converte endereços em dados espaciais para que possam ser mapeados.
+📝 [#tutorial02: planejar rotas para entregadores de mercadorias](https://www.linkedin.com/pulse/tutorial02-planejar-rotas-para-entregadores-de-bruna-candeia-wvdsf/)
 
-Você fará o download de dois arquivos CSV e os usará para geocodificar os endereços no seu mapa: um contendo os endereços dos 23 destinos que sua equipe irá realizar as entregas e outro com os endereços das residências dos entregadores.
+**Resumo:** mapeamento e otimização das rotas de cinco entregadores do Centro de Distribuição do Mercado Livre para 23 destinos no município do Cabo de Santo Agostinho (PE), usando a interface do ArcGIS Online e a ferramenta Network Analyst — sem escrever código.
+
+**Dados utilizados:** disponíveis em [`../dados`](../dados) (endereços dos destinos e das residências dos entregadores).
+
+---
+
+⬅️ [Voltar para a visão geral do projeto](../README.md)
